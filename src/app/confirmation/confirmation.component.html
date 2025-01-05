@@ -1,0 +1,8 @@
+<h2 mat-dialog-title>Deletar item</h2>
+<mat-dialog-content>
+  Quer mesmo deletar esse item?
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="closeDialog('NO')">Não</button>
+  <button mat-button (click)="closeDialog('YES')" cdkFocusInitial>Sim</button>
+</mat-dialog-actions>
